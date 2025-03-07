@@ -1,0 +1,33 @@
+# Ignorar diretórios de compilação
+/bin/
+/build/
+/target/
+*.class
+
+# Ignorar arquivos do IntelliJ IDEA
+.idea/
+*.iml
+
+# Ignorar arquivos do Eclipse
+.project
+.classpath
+.settings/
+
+# Ignorar arquivos do NetBeans
+/nbproject/private/
+/dist/
+/nbbuild/
+
+# Ignorar arquivos do Maven e Gradle
+.mvn/
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+.gradle/
+build/
+out/
+
+# Ignorar logs e arquivos temporários
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
